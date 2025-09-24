@@ -9,12 +9,13 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The design contains a 3 bit LFSR and NAND gate. 
 
 ## How to test
 
-Explain how to use your project
+The result of the NAND operation between the inputs a and b is output on output 0.
+The inverted state of the LFSR is output on 5-7.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Switches for the inputs, LEDs for the outputs.
